@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<!--above line makes game playable in IE 9-->
+<html>
+	<head>
+		<title>Hamster Flight Help</title>
+	</head>
+	
+	<!-- didload is in gameMechanics.js and init's the variables for the game and the canvas -->
+	<body onLoad="didload()">
+	<a href="\">cWynn Homepage</a> | <a href="\hamsterflight\">Back to game</a><br><br>
+	Help Section:<br><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;Powerups: +1000pts<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You have to hit powerups with your player, shooting them destroys them<br><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./pluspower.png" /> Increase the power of your bullets<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Red is weakest, Green medium, Blue is most powerful<br><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./plusbullets.png" /> Increase the number of bullets<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You start with 1, max is 3<br><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./pluslife.png" /> Increase your number of lives<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You start with 3, maximum is 5 lives, if you get to 0 lives the game ends<br><br><br>
+	
+	&nbsp;&nbsp;&nbsp;&nbsp;Things that hurt you:<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./boss.png" /> Boss Cat<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bosses don't actually hurt you but the shoot hairballs at you<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bosses have 50hp, but get more hp as you progress<br><br><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./hairball.png" /> Hairball<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bosses shoot these at you; Getting hit by one will cost you a life<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hairballs have 2hp (two red bullets or one green or one blue will take care of it)<br><br><br>
+	
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./enemy1.png" /> Gizmo<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./enemy2.png" /> Ceasar<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;These guys will also cost you a life you they touch you<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;They each have 3 hp<br><br><br>
+	</body>
+</html>
